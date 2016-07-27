@@ -14,6 +14,7 @@ Hybrid Mobile Application with Wordpress back-end based on https://github.com/sh
 This installation works on both OSX and Linux. Windows is not supported yet,
 
 # Run on the browser
+```
 $ npm run devserver
 ```
 
@@ -23,20 +24,25 @@ To go further please read the documentations.
 
 ## Project public API
 
-```
 # Dev server
+```
 npm run devserver
 
 # Dump files in www
+```
 npm run dumpdev
 npm run dumpprod
+```
 
 # Run Cordova
+```
 npm run android
 npm run ios
 npm run iosEmulator
+```
 
 # Cordova build
+```
 npm run buildAndroid
 npm run buildProdAndroid
 npm run buildIOS
